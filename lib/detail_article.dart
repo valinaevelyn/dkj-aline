@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_alin/profile.dart';
 
 class DetailArticlePage extends StatelessWidget {
   const DetailArticlePage({super.key});
@@ -255,6 +256,26 @@ class DetailArticlePage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    const SizedBox(height: 20),
+                    SizedBox(
+                        width: 335,
+                        child: FilledButton(
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ProfilePage()),
+                            );
+                          },
+                          style: ButtonStyle(
+                            shape: MaterialStateProperty.all(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(8))),
+                            backgroundColor: MaterialStateProperty.all(
+                                Color.fromRGBO(243, 82, 13, 1)),
+                          ),
+                          child: const Text('Next'),
+                        )),
                   ],
                 ),
               ),
