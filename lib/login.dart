@@ -18,17 +18,22 @@ class LoginPage extends StatelessWidget {
                     style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
+                        fontFamily: 'PlusJakarta',
                         color: Color.fromRGBO(243, 82, 13, 1))),
                 const SizedBox(height: 2),
                 const Text('Masukkan Username dan Kata Sandi Anda',
                     style: TextStyle(
                         fontSize: 12,
                         fontWeight: FontWeight.normal,
+                        fontFamily: 'PlusJakarta',
                         color: Colors.black)),
                 const SizedBox(height: 40),
                 SizedBox(
                   width: 335,
                   child: TextFormField(
+                    style: const TextStyle(
+                      fontFamily: 'PlusJakarta',
+                    ),
                     decoration: const InputDecoration(
                         labelText: 'Username / Email',
                         hintText: 'Masukkan Username',
@@ -42,6 +47,9 @@ class LoginPage extends StatelessWidget {
                 SizedBox(
                   width: 335,
                   child: TextFormField(
+                    style: const TextStyle(
+                      fontFamily: 'PlusJakarta',
+                    ),
                     obscureText: true,
                     decoration: const InputDecoration(
                         labelText: 'Password',
@@ -69,7 +77,12 @@ class LoginPage extends StatelessWidget {
                         backgroundColor: MaterialStateProperty.all(
                             Color.fromRGBO(243, 82, 13, 1)),
                       ),
-                      child: const Text('Masuk'),
+                      child: const Text(
+                        'Masuk',
+                        style: TextStyle(
+                          fontFamily: 'PlusJakarta',
+                        ),
+                      ),
                     )),
                 const SizedBox(height: 40),
                 Row(
@@ -78,6 +91,7 @@ class LoginPage extends StatelessWidget {
                     const Text('Tidak punya akun? '),
                     const Text('Daftar Disini',
                         style: TextStyle(
+                            fontFamily: 'PlusJakarta',
                             fontSize: 12,
                             fontWeight: FontWeight.bold,
                             color: Color.fromRGBO(243, 82, 13, 1),

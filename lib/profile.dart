@@ -40,6 +40,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     'Edit Profile',
                     textAlign: TextAlign.center,
                     style: TextStyle(
+                      fontFamily: 'PlusJakarta',
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                       color: Color.fromRGBO(243, 82, 13, 1),
@@ -88,6 +89,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               child: Text(
                                 'Edit',
                                 style: TextStyle(
+                                  fontFamily: 'PlusJakarta',
                                   fontSize: 12,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.white,
@@ -127,6 +129,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               child: Text(
                                 'Logout',
                                 style: TextStyle(
+                                  fontFamily: 'PlusJakarta',
                                   fontSize: 12,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.white,
@@ -144,6 +147,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     child: Text(
                       'Detail Pribadi',
                       style: TextStyle(
+                        fontFamily: 'PlusJakarta',
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
                         color: Color.fromRGBO(243, 82, 13, 1),
@@ -159,6 +163,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           child: Text(
                             'Nama Depan',
                             style: TextStyle(
+                              fontFamily: 'PlusJakarta',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                               color: Colors.black,
@@ -166,6 +171,9 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         TextFormField(
+                          style: const TextStyle(
+                            fontFamily: 'PlusJakarta',
+                          ),
                           enabled: _isEditing,
                           decoration: InputDecoration(
                             hintText: 'Metiu',
@@ -181,6 +189,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           child: Text(
                             'Nama Tengah',
                             style: TextStyle(
+                              fontFamily: 'PlusJakarta',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                               color: Colors.black,
@@ -188,6 +197,9 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         TextFormField(
+                          style: const TextStyle(
+                            fontFamily: 'PlusJakarta',
+                          ),
                           enabled: _isEditing,
                           decoration: InputDecoration(
                             hintText: 'Gustino',
@@ -203,6 +215,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           child: Text(
                             'Nama Belakang',
                             style: TextStyle(
+                              fontFamily: 'PlusJakarta',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                               color: Colors.black,
@@ -210,6 +223,9 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         TextFormField(
+                          style: const TextStyle(
+                            fontFamily: 'PlusJakarta',
+                          ),
                           enabled: _isEditing,
                           decoration: InputDecoration(
                             hintText: 'Leviothniel',
@@ -225,6 +241,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           child: Text(
                             'Alamat',
                             style: TextStyle(
+                              fontFamily: 'PlusJakarta',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                               color: Colors.black,
@@ -232,6 +249,9 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         TextFormField(
+                          style: const TextStyle(
+                            fontFamily: 'PlusJakarta',
+                          ),
                           enabled: _isEditing,
                           decoration: InputDecoration(
                             hintText:
@@ -251,6 +271,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     child: Text(
                       'Detail Akun',
                       style: TextStyle(
+                        fontFamily: 'PlusJakarta',
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
                         color: Color.fromRGBO(243, 82, 13, 1),
@@ -266,6 +287,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           child: Text(
                             'Username',
                             style: TextStyle(
+                              fontFamily: 'PlusJakarta',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                               color: Colors.black,
@@ -273,6 +295,9 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         TextFormField(
+                          style: const TextStyle(
+                            fontFamily: 'PlusJakarta',
+                          ),
                           enabled: _isEditing,
                           decoration: InputDecoration(
                             hintText: 'MetinoNiel',
@@ -288,6 +313,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           child: Text(
                             'Kata Sandi',
                             style: TextStyle(
+                              fontFamily: 'PlusJakarta',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                               color: Colors.black,
@@ -295,6 +321,9 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         TextFormField(
+                          style: const TextStyle(
+                            fontFamily: 'PlusJakarta',
+                          ),
                           enabled: _isEditing,
                           decoration: InputDecoration(
                             hintText: '**************',
@@ -310,6 +339,7 @@ class _ProfilePageState extends State<ProfilePage> {
                           child: Text(
                             'Email',
                             style: TextStyle(
+                              fontFamily: 'PlusJakarta',
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
                               color: Colors.black,
@@ -317,6 +347,9 @@ class _ProfilePageState extends State<ProfilePage> {
                           ),
                         ),
                         TextFormField(
+                          style: const TextStyle(
+                            fontFamily: 'PlusJakarta',
+                          ),
                           enabled: _isEditing,
                           decoration: InputDecoration(
                             hintText: 'felix.tjuatja001@gmail.com',
@@ -353,6 +386,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                   child: Text(
                                     'Cancel',
                                     style: TextStyle(
+                                      fontFamily: 'PlusJakarta',
                                       fontSize: 12,
                                       color: Colors.black,
                                     ),
@@ -381,6 +415,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                   child: Text(
                                     'Submit',
                                     style: TextStyle(
+                                      fontFamily: 'PlusJakarta',
                                       color: Colors.white,
                                       fontSize: 12,
                                     ),

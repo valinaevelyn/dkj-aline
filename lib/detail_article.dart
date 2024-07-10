@@ -48,6 +48,7 @@ class DetailArticlePage extends StatelessWidget {
                     child: Text(
                         'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                         style: TextStyle(
+                            fontFamily: 'PlusJakarta',
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
                             color: Color.fromRGBO(243, 82, 13, 1))),
@@ -68,11 +69,13 @@ class DetailArticlePage extends StatelessWidget {
                         children: [
                           const Text('Ditulis oleh ',
                               style: TextStyle(
+                                  fontFamily: 'PlusJakarta',
                                   fontSize: 12,
                                   fontWeight: FontWeight.normal,
                                   color: Colors.black)),
                           const Text('Felix Gustino',
                               style: TextStyle(
+                                  fontFamily: 'PlusJakarta',
                                   fontSize: 12,
                                   fontWeight: FontWeight.bold,
                                   color: Colors.black)),
@@ -85,12 +88,14 @@ class DetailArticlePage extends StatelessWidget {
                           const Text('27 Mei 2024',
                               textAlign: TextAlign.left,
                               style: TextStyle(
+                                  fontFamily: 'PlusJakarta',
                                   fontSize: 12,
                                   fontWeight: FontWeight.normal,
                                   color: Colors.black)),
                           const Text('Setiabudi, Jakarta Selatan',
                               textAlign: TextAlign.right,
                               style: TextStyle(
+                                  fontFamily: 'PlusJakarta',
                                   fontSize: 12,
                                   fontWeight: FontWeight.normal,
                                   color: Colors.black)),
@@ -101,6 +106,7 @@ class DetailArticlePage extends StatelessWidget {
                         textAlign: TextAlign.justify,
                         text: TextSpan(
                           style: TextStyle(
+                            fontFamily: 'PlusJakarta',
                             fontSize: 12,
                             fontWeight: FontWeight.normal,
                             color: Colors.black,
@@ -127,6 +133,7 @@ class DetailArticlePage extends StatelessWidget {
                       children: [
                         Text('Lorem Ipsum',
                             style: TextStyle(
+                                fontFamily: 'PlusJakarta',
                                 fontSize: 12,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black)),
@@ -136,6 +143,7 @@ class DetailArticlePage extends StatelessWidget {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         style: TextStyle(
+                          fontFamily: 'PlusJakarta',
                           fontSize: 12,
                           fontWeight: FontWeight.normal,
                           color: Colors.black,
@@ -173,6 +181,7 @@ class DetailArticlePage extends StatelessWidget {
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                             fontSize: 12,
+                            fontFamily: 'PlusJakarta',
                             fontWeight: FontWeight.normal,
                             color: Colors.grey)),
                     Divider(
@@ -185,6 +194,7 @@ class DetailArticlePage extends StatelessWidget {
                             textAlign: TextAlign.left,
                             style: TextStyle(
                                 fontSize: 6,
+                                fontFamily: 'PlusJakarta',
                                 fontWeight: FontWeight.normal,
                                 color: Colors.grey)),
                         const Text('Setiabudi, Jakarta Selatan',
@@ -203,6 +213,7 @@ class DetailArticlePage extends StatelessWidget {
                         Text('Lorem Ipsum',
                             style: TextStyle(
                                 fontSize: 12,
+                                fontFamily: 'PlusJakarta',
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black)),
                       ],
@@ -216,6 +227,7 @@ class DetailArticlePage extends StatelessWidget {
                         text: TextSpan(
                           style: TextStyle(
                             fontSize: 12,
+                            fontFamily: 'PlusJakarta',
                             fontWeight: FontWeight.normal,
                             color: Colors.black,
                           ),
@@ -240,6 +252,7 @@ class DetailArticlePage extends StatelessWidget {
                         text: TextSpan(
                           style: TextStyle(
                             fontSize: 12,
+                            fontFamily: 'PlusJakarta',
                             fontWeight: FontWeight.normal,
                             color: Colors.black,
                           ),
